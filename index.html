@@ -1,3 +1,4 @@
+<!-- Basic HTML setup -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main app container -->
     <div class="container">
+        <!-- Markdown editor section -->
         <div id="editor-container">
             <h1>Editor</h1>
             <div id="editor">
                 <textarea name="" id="editor-textarea"></textarea>
             </div>
         </div>
+        <!-- Preview section -->
         <div id="preview-container">
             <h1>Previwer</h1>
             <div id="preview"></div>
         </div>
     </div>
+    <!-- Clear text button -->
     <button id="clear-button">Clear</button>
 </body>
+
 <script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.2/marked.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
